@@ -4,13 +4,13 @@
 
 
 ## IN-PROGRESS
--[ ] Login UI
--[ ] Registration UI
--[ ] Logout UI
--[ ] Database Setup
+[ ] Login UI
+[ ] Registration UI
+[ ] Logout UI
+[ ] Database Setup
 
 ## TO-DO
--[ ] Login Backend Implementation
--[ ] Logout Backend Implementation
--[ ] Registration Backend Implementation
--[ ] Dashboard UI
+[ ] Login Backend Implementation
+[ ] Logout Backend Implementation
+[ ] Registration Backend Implementation
+[ ] Dashboard UI
