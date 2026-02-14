@@ -2,10 +2,10 @@
 
 ## DONE
 - [x] Database Setup
+- [x] Login UI
+- [x] Registration UI
 
 ## IN-PROGRESS
-- [ ] Login UI
-- [ ] Registration UI
 - [ ] Logout UI
 - [ ] Login Backend Implementation
 - [ ] Logout Backend Implementation
