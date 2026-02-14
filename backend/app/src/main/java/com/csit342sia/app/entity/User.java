@@ -29,7 +29,7 @@ public class User {
     private String username;
 
     @Column(nullable = false)
-    private String role;
+    private Role role;
 
     @Column(nullable = false)
     private LocalDateTime createdAt;
@@ -44,7 +44,7 @@ public class User {
 
     }
 
-    public User(String email, String password, String username, String firstName, String lastName, String role, boolean isActive){
+    public User(String email, String password, String username, String firstName, String lastName, Role role, boolean isActive){
         this.email = email;
         this.password = password;
         this.username = username;
@@ -78,7 +78,7 @@ public class User {
         return lastName;
     }
 
-    public String getRole(){
+    public Role getRole(){
         return role;
     }
 
@@ -118,7 +118,7 @@ public class User {
         this.lastName = lastName;
     }
 
-    public void setRole(String role){
+    public void setRole(Role role){
         this.role = role;
     }
 
